@@ -10,6 +10,8 @@ function App() {
   return (
     <main className="App">
 
+      
+
         <SearchBar
           // onSearch={(ciudad) => alert(ciudad)}
           onSearch={(ciudad) => swal(ciudad)}

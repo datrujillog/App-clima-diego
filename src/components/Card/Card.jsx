@@ -29,6 +29,15 @@ export default function Card (props) {
             alt='solcito'
           />
         </figure>
+
+        
+
+        
+               
+      
+
+      
+      
         {/* <hr /> */}
       </div>
         {/* <hr /> */}
