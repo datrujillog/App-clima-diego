@@ -21,6 +21,7 @@ export default function Card (props) {
             <p>{max}</p>
           </div>
         </div>
+        <hr />
         <figure>
           <img
             className={s.imgCard}
@@ -28,8 +29,10 @@ export default function Card (props) {
             alt='solcito'
           />
         </figure>
-        <br />
+        <hr />
       </div>
+        <hr />
+
     </div>
   )
 }

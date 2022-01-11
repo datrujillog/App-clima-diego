@@ -30,12 +30,15 @@
 .button {
     align-self: flex-end;
     background-color: #38A3A5;
-    color: white;
+    color: red;
     border: none;
     height: 2rem;
     font-size: .9rem;
     width: 2rem;
     border-radius: .45rem;
+    /* boton tranparente  */
+    background-color: rgba(255, 255, 255, 0.5);
+   
 }
 
 .button:hover {

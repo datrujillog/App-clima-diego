@@ -8,31 +8,22 @@
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
+  /* aplicar  imagen opaca   */
+  opacity: 0.9;
+  background-color: rgba(0, 0, 0, 0.5);
+  
   /* no perder difinicion de la imagen de fondo   */
   background-clip: border-box;
   /* no perder difinicion de la imagen de fondo   */
   background-origin: padding-box;
   /* no perder difinicion de la imagen de fondo   */
-  background-color: rgb(247, 244, 244);
- 
+  background-color: rgb(247, 244, 244); 
 
  
 }
 /* para dispotitivos moviles  */
 
-/* @media only screen and (max-width: 430px) {
-  .App {
-    background-attachment: fixed;
-    /* no perder difinicion de la imagen de fondo   */
-    /* background-clip: border-box; */
-    /* no perder difinicion de la imagen de fondo   */
-    /* background-origin: padding-box; */
-    /* no perder difinicion de la imagen de fondo   */
-    /* background-color: rgb(247, 244, 244); */
-    
-      
-  /* }
-} */ */
+
 
 .App-logo {
   height: 40vmin;
