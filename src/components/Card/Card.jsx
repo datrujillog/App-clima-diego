@@ -29,9 +29,9 @@ export default function Card (props) {
             alt='solcito'
           />
         </figure>
-        <hr />
+        {/* <hr /> */}
       </div>
-        <hr />
+        {/* <hr /> */}
 
     </div>
   )

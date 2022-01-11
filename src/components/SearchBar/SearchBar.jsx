@@ -1,5 +1,6 @@
 import React from 'react';
 import s from './SearchBar.module.css'
+import swal from 'sweetalert';
 
 export default function SearchBar({onSearch}) {
   // acá va tu código
@@ -13,7 +14,7 @@ export default function SearchBar({onSearch}) {
           className={s.button}
           onClick={(e) => {
             e.preventDefault()
-            onSearch('cualquier cosa')
+            onSearch(swal('La ciudad se agrego con exito!', '', 'success'))
           }}>
           Buscar
         </button>
