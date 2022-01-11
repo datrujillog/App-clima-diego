@@ -3,4 +3,17 @@
     justify-content: space-between;
     flex-wrap: wrap;
     margin: 2rem;
+    /* width: 100%; */
+}
+
+/* adatarlo a dispositivos moviles  */
+
+ @media only screen and (max-width: 600px) {
+    .cardsContainer {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        /* margin: 2rem; */
+        
+    }
 }

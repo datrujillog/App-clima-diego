@@ -2,7 +2,37 @@
   background-color: rgb(247, 244, 244);
   min-height: 100vh;
   min-width: 100vw;
+  /* imagen de fondo de la app  */
+  background-image: url("https://us.123rf.com/450wm/gyn9037/gyn90371902/gyn9037190200071/116624210-guangxi-nanning-qingxiu-shan-paisajes-lagos-y-edificios-antiguos-.jpg?ver=6");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  /* no perder difinicion de la imagen de fondo   */
+  background-clip: border-box;
+  /* no perder difinicion de la imagen de fondo   */
+  background-origin: padding-box;
+  /* no perder difinicion de la imagen de fondo   */
+  background-color: rgb(247, 244, 244);
+ 
+
+ 
 }
+/* para dispotitivos moviles  */
+
+/* @media only screen and (max-width: 430px) {
+  .App {
+    background-attachment: fixed;
+    /* no perder difinicion de la imagen de fondo   */
+    /* background-clip: border-box; */
+    /* no perder difinicion de la imagen de fondo   */
+    /* background-origin: padding-box; */
+    /* no perder difinicion de la imagen de fondo   */
+    /* background-color: rgb(247, 244, 244); */
+    
+      
+  /* }
+} */ */
 
 .App-logo {
   height: 40vmin;

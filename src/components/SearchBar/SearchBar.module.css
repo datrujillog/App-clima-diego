@@ -1,7 +1,16 @@
 .searchBarContainer {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+
+
+    background-attachment: fixed;
     background-color: rgb(46, 46, 46);
     padding: .75rem;
+    height: 3rem;
 }
+
+
 .formContainer {
     margin-left: auto;
 
@@ -12,17 +21,37 @@
     padding: .25rem;
     border: none;
     border-radius: .2rem;
+    height: 2rem;
+    width: 15rem;
+    font-size: 15px;
 }
+@media only screen and (max-width: 360px) {
+    .input {
+        width: 12rem;
+
+        
+    }
+}
+
 .button {
     margin: .25rem;
     padding: .25rem;
+    border: none;
+    border-radius: .2rem;
+    height: 2.5rem;
+    width: 5rem;
     align-self: flex-end;
     background-color: #38A3A5;
     color: white;
     border: none;
     border-radius: .2rem;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: auto;
 }
 
 .button:hover {
     cursor: pointer;
+    background-color: #73b0b1;
+
 }

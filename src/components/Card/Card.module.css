@@ -2,10 +2,29 @@
     background-color: white;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
     margin: 1rem;
     padding: 1rem;
+    /* width: 100%;7 */
     border-radius: 1.5rem;
     box-shadow: 1rem 0.75rem 0.75rem #00000024;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    /* poner las card tranparentes   */
+   background-color: rgba(255, 255, 255, 0.5);
+}
+
+.cardContainer:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 .button {
@@ -18,14 +37,17 @@
     width: 2rem;
     border-radius: .45rem;
 }
+
 .button:hover {
     cursor: pointer;
     background-color: #73b0b1;
 }
+
 .title {
     align-self: center;
     margin: 1rem;
 }
+
 .bodyContainer {
     display: flex;
 }
@@ -41,4 +63,46 @@
 
 .subTitle {
     font-weight: 500;
+}
+
+.imgCard {
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+
+
+}
+
+.imgCard:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+/* centrar la clase cardContainer para dispositivos moviles  */
+@media only screen and (max-width: 430px) {
+    .cardContainer {
+        /* background-color: white; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        /* align-content: center; */
+        align-items: center;
+        margin-bottom: 1rem;
+        margin-left: -4vw;
+        margin-right: -10vw;
+        width: 300px;
+        text-align: center;
+        border-radius: 1.5rem;
+        box-shadow: 1rem 0.75rem 0.75rem #00000024;
+        cursor: pointer;
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+
+    }
 }
