@@ -1,0 +1,44 @@
+.cardContainer {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 1.5rem;
+    box-shadow: 1rem 0.75rem 0.75rem #00000024;
+}
+
+.button {
+    align-self: flex-end;
+    background-color: #38A3A5;
+    color: white;
+    border: none;
+    height: 2rem;
+    font-size: .9rem;
+    width: 2rem;
+    border-radius: .45rem;
+}
+.button:hover {
+    cursor: pointer;
+    background-color: #73b0b1;
+}
+.title {
+    align-self: center;
+    margin: 1rem;
+}
+.bodyContainer {
+    display: flex;
+}
+
+.temperatureContainer {
+    display: flex;
+}
+
+.temperature {
+    margin: 1rem;
+    text-align: center;
+}
+
+.subTitle {
+    font-weight: 500;
+}
