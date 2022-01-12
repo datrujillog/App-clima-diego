@@ -20,16 +20,33 @@
     margin: .25rem;
     padding: .25rem;
     border: none;
-    border-radius: .2rem;
+    border-radius: 10rem;
     height: 2.6rem;
     width: 15rem;
     font-size: 20px;
+    text-align: center;
+    /* border: none; */
+    /* background-color: rgb(46, 46, 46);
+    color: white;
+    outline: none; */
+    /* poner transparente el input para que no se vea el borde  */
+    background-color: transparent;
+    color: #000;
+    outline: none;
+    /* colocar raya abajo del input */
+    border-bottom: 1px solid white;
+    /* text-decoration: underline; */
+
+    
 }
 @media only screen and (max-width: 360px) {
     .input {
         width: 12rem;
 
         
+    }
+    .button {
+        margin-bottom: 5rem; ;
     }
 }
 
@@ -39,20 +56,29 @@
     border: none;
     border-radius: .2rem;
     height: 3rem;
-    width: 5rem;
+    width: 8rem;
     align-self: flex-end;
-    background-color: #38A3A5;
-    background-color: #73b0b1;
+    font-size: 20px;
+    /* background-color: #38A3A5;
+    background-color: #73b0b1; */
     color: white;
     border: none;
     border-radius: .2rem;
-    font-size: 18px;
+    /* font-size: 18px; */
     font-weight: bold;
     margin-left: auto;
+    background-color: transparent;
+    margin-left: .3rem; ;
+    font-family: 'cursive';
+
 }
 
 .button:hover {
     cursor: pointer;
-    background-color: #73b0b1;
+    /* background-color: #73b0b1; */
+    /* color transparennte  */
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10rem; ;
+    /* width: 5rem; */
 
 }
